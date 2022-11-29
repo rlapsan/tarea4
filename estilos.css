@@ -1,0 +1,114 @@
+header {
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  .foto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  nav {
+    float: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+    display: flex;
+  }
+  
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: flex;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #eca023;
+  }
+.menu {
+    display:flex;
+}
+table {
+    width: 25%;
+    border: 1px solid rgb(57, 167, 175);
+    margin-left: 19cm;
+ }
+ ul {
+    list-style-type: none;
+    text-align: left;
+    color: #6a6a6a;
+    
+  }
+ th, td {
+    width: 25%;
+    text-align: center;
+    vertical-align: center;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+ caption {
+    padding: 0.3em;
+    color: #fff;
+     background: rgb(29, 100, 141);
+ }
+ th {
+    background: #eee;
+ }
+ .cerrado {
+    color:rgb(0, 0, 0);
+    background-color:rgb(231, 97, 97);
+ }
+ .grupo {
+    color:rgb(0, 0, 0);
+    background-color:rgb(42, 196, 137);
+ }
+ @charset "utf-8";
+ .tarjeta{
+   display:inline-block;
+   flex-direction:column;
+   justify-content:space-between;
+   width:935px;
+   border: 1px solid lightgray;
+   box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+   border-radius:15px;
+   font-family: sans-serif;
+ }
+ .titulo{
+   font-size: 24px;
+   padding: 10px 10px 0 10px;
+   text-align: center;
+ }
+ .cuerpo{
+   padding: 10px;
+
+ }
+ .pie{
+   background: #3095bd;
+   border-radius:0 0 15px 15px;
+   padding: 10px;
+   text-align:center;
+ }
+ .pie a{
+   text-decoration: none;
+   color: white;
+ }
+ .pie a:after {
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 1;
+   content: ""
+ }
+ 

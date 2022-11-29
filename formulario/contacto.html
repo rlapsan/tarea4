@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta lang="es"/>
+	<title>IES PABLO SERRANO</title>
+	<link rel="icon" href="imagenes/logo.png" type="image/png">
+</head>
+<body STYLE="margin:150px;">
+
+<h2>Formulario de reserva</h2>
+
+<form action="https://httpbin.org/get y" method="get">
+  <fieldset>
+    <legend>Información general</legend>
+
+    <p><label for="f_solicitud">Fecha de solicitud</label>
+    <input type="date" name="f_solicitud" min="2020-03-01" autofocus required></p>
+
+    <p><label for="n_noches">Número de grados:</label>
+    <input type="number" id="n_grados" name="n_grados" placeholder="¿De cuantos grados quieres información?" min="1" required></p>
+
+    <p><label for="Modalidad">Modalidad: </label>
+    <select name="Modalidad" id="Modalidad">
+        <option value="1">Presencial</option>
+        <option selected="selected" value="2">Distancia</option>
+    </select></p>
+
+    <p><label for="t_estudios">Tipo de estudios:</label>
+    <input type="radio" id="t_estudios" name="t_estudios" value="Medio">
+    <label for="Standard">Grado Medio</label>
+    <input type="radio" id="t_estudios" name="t_estudios" value="Superior">
+    <label for="Business">Grado Superior</label>
+
+    
+</fieldset>
+  
+<fieldset>
+    <legend>Información de contacto</legend>
+
+    <p><label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" placeholder="Nombre y Apellidos" maxlength="32" required></p>
+
+    <p><label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="ejemplo@servidor.com" required></p>
+
+</fieldset>
+
+<fieldset>
+    <legend>Protección de datos</legend>
+
+    <p><input type="checkbox" id="lopd" name="lopd" value="lopd" required>
+    <label for="lopd"> He leido y acepto la política de privacidad.</label></p>
+
+    <p><input type="checkbox" id="publicidad" name="publicidad" value="publicidad" checked>
+    <label for="publicidad"> Acepto recibir comunicaciones comerciales.</label></p>
+
+</fieldset>
+
+<input type="submit" value="Enviar solicitud">
+<input type="reset" value="Borrar formulario" />
+
+</form> 
+
+</body>
+</html>
